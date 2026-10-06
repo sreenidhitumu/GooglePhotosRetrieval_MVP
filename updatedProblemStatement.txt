@@ -1,0 +1,349 @@
+I want to change the core interaction model of the current MVP.
+
+IMPORTANT: Do NOT rebuild the project from scratch. Reuse the existing dataset, Gemini integration, candidate filtering/grouping logic, Memory Cue components, styling, and working infrastructure wherever possible.
+
+NEW PRODUCT CONCEPT:
+The MVP is no longer primarily a metadata-filtering interface.
+
+It is an AI-guided MEMORY RECONSTRUCTION experience.
+
+CORE IDEA:
+When a user remembers a photo but cannot recall enough searchable information, the system should help them reconstruct the missing context through recognition.
+
+Example:
+"I remember seeing a quote in a cafe, but I don't remember which cafe, where it was, when I visited, or what the quote said."
+
+The system should NOT simply:
+"quote + cafe → find the target photo."
+
+Instead:
+
+Vague memory
+→ AI understands what is remembered and what is missing
+→ AI chooses a useful recognition task
+→ user recognizes something
+→ AI updates its understanding of the memory
+→ AI chooses the next useful recognition task
+→ memory becomes progressively more complete
+→ target photo is retrieved.
+
+1. NEW STARTING STATE
+
+Keep the free-text memory input.
+
+Example:
+"I remember a quote in a cafe."
+
+After submission, Gemini should interpret the memory into something conceptually like:
+
+REMEMBERED:
+- Setting: cafe
+- Distinctive detail: quote
+
+UNKNOWN:
+- City
+- Area
+- Month
+- Specific cafe
+- Exact quote
+
+Do NOT use "quote" as an OCR/content-search shortcut to directly find the target.
+
+2. AI MEMORY MODEL
+
+Create a structured memory state for the current retrieval session.
+
+It should track:
+
+- remembered information
+- unknown information
+- confirmed information
+- candidate contexts
+- previous user choices
+- remaining candidate set
+
+The AI should reason about this state rather than simply extracting database filters.
+
+3. MEMORY RECONSTRUCTION
+
+After understanding the initial memory, the system should choose a useful next recognition task.
+
+For example:
+
+"You don't remember where this happened. Let's see if any of these places feel familiar."
+
+Then show representative visual Memory Cues from different candidate contexts.
+
+The user selects the one that feels familiar.
+
+This selection should add NEW information to the memory state.
+
+For example:
+
+User recognizes a context
+→ system learns that this likely corresponds to:
+Hyderabad → Jubilee Hills → March
+
+The user did not have to type those values.
+
+4. AI MUST CHOOSE THE NEXT STEP DYNAMICALLY
+
+Do NOT use a fixed sequence:
+
+City → Area → Month → Category
+
+The next recognition task should depend on:
+
+- what the user already remembers
+- what they have already confirmed
+- what remains unknown
+- the current candidate set
+- which available distinction can meaningfully reduce the candidate space
+- what can reasonably be recognized visually
+
+Possible recognition tasks can include:
+
+- Which city feels familiar?
+- Which area feels familiar?
+- Which time period feels familiar?
+- Which place/context looks familiar?
+- Which visit looks familiar?
+
+The system should not force the user to remember an attribute they explicitly don't know.
+
+5. VISUAL MEMORY CUES
+
+Keep the existing Memory Cues concept, but make it the CENTRAL interaction.
+
+The cards/images are not search results.
+
+They are recognition prompts intended to trigger memory.
+
+Use language such as:
+
+"Let's reconstruct the memory."
+
+"You don't need to remember everything."
+
+"Which place feels familiar?"
+
+"Does any of these moments look familiar?"
+
+"Which visit feels right?"
+
+Avoid language such as:
+
+"Filter results"
+"Choose metadata"
+"Search by"
+"Refine filters"
+
+6. CANDIDATE SET
+
+Keep deterministic filtering/grouping underneath the experience.
+
+That is fine.
+
+The important difference is that the user should not be manually operating database filters.
+
+The AI/user recognition loop should determine which information is added to the memory state, and the retrieval engine should update the candidate set accordingly.
+
+7. GEMINI'S ROLE
+
+Gemini should now have a meaningful role beyond simple metadata extraction.
+
+Use Gemini for:
+
+A. Understanding the user's vague memory.
+B. Distinguishing remembered vs unknown information.
+C. Maintaining/interpreting the evolving memory state.
+D. Recommending the next useful recognition task based on the current state and candidate space.
+E. Interpreting the user's recognition/selection when necessary.
+
+Do NOT use Gemini to simply search for the target photo.
+
+Do NOT use OCR or semantic matching of the word "quote" to directly retrieve the target.
+
+8. TARGET PHOTO
+
+The target photo must NOT appear as the obvious first result.
+
+The user should have to reconstruct enough of the memory to reach the correct context and then retrieve the target photo.
+
+Do NOT use:
+- is_target_photo
+- target-photo flags
+- target-specific ranking
+
+during retrieval.
+
+These may only be used for testing/verification.
+
+9. CURRENT DATASET
+
+Reuse the existing cafe dataset.
+
+User-facing retrieval dimensions should remain:
+
+- City
+- Area
+- Month
+- Category
+
+Exact Time should remain removed from the user-facing experience.
+
+Venue name can remain internal for grouping visits/contexts but should not be exposed as a filter.
+
+10. IMPORTANT: DO NOT MAKE THIS A GENERAL GOOGLE PHOTOS SEARCH CLONE
+
+Do not add:
+- generic OCR search
+- exact quote search
+- broad object search
+- semantic target-photo search
+- many unrelated scenarios
+- a large set of conventional filters
+
+The focused demonstration remains:
+
+CAFE + QUOTE MEMORY
+
+The point is to demonstrate memory reconstruction, not general photo search.
+
+11. PROPOSED USER JOURNEY
+
+Example:
+
+User:
+"I remember seeing a quote in a cafe."
+
+↓
+
+AI:
+"I understand you remember a cafe and a quote, but not the exact place or time."
+
+↓
+
+"Let's reconstruct the memory."
+
+↓
+
+Memory Cue gallery:
+"Which place or moment feels familiar?"
+
+↓
+
+User selects a context.
+
+↓
+
+Memory state updates.
+
+↓
+
+AI:
+"That looks like a visit in Hyderabad. Do you remember which area?"
+
+↓
+
+Area Memory Cues.
+
+↓
+
+User recognizes an area/context.
+
+↓
+
+AI:
+"I found a few visits that could match."
+
+↓
+
+Representative visit/context cards.
+
+↓
+
+User recognizes the correct visit.
+
+↓
+
+Photos from that context.
+
+↓
+
+Target photo.
+
+12. EDGE CASES
+
+Preserve the existing handling for:
+
+- invalid input
+- unsupported scenarios
+- zero matching candidates
+- "Not sure"
+- "None of these"
+- Undo
+- Reset
+
+If the user selects "Not sure", the system should choose another useful recognition path rather than failing.
+
+13. UI
+
+Preserve the current visual design as much as possible.
+
+Change the conceptual hierarchy:
+
+TITLE:
+"Let's reconstruct the memory"
+
+SUBTITLE:
+"You don't need to remember everything. We'll work backwards from what you do remember."
+
+Then show:
+
+REMEMBERED
+Cafe
+Quote
+
+UNKNOWN
+Where
+When
+Which cafe
+
+Then the current Memory Cue interaction.
+
+Do not make the interface look like a filter panel.
+
+14. TEST THE COMPLETE JOURNEY
+
+The final MVP should reliably demonstrate:
+
+"I remember a quote in a cafe, but I don't remember where or when."
+
+→ memory interpretation
+→ missing-information identification
+→ recognition cue
+→ user recognition
+→ updated memory
+→ next recognition cue
+→ context recognition
+→ target retrieval
+
+Test that the target cannot be retrieved immediately from the initial query.
+
+15. IMPORTANT PRIORITY
+
+The goal is NOT maximum technical complexity.
+
+The goal is to demonstrate this product hypothesis:
+
+"When users cannot precisely describe a remembered photo, an AI-guided sequence of recognition tasks can help them reconstruct the missing context and retrieve the photo."
+
+Before changing code, briefly inspect the current architecture and identify which existing components can be reused versus modified.
+
+Then implement the transformation and report:
+- what components were reused
+- what components were changed
+- where Gemini is now actually providing intelligence
+- the final end-to-end retrieval flow
+- any limitations.

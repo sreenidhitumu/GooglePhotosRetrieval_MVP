@@ -1,0 +1,53 @@
+Problem Statement: AI-Guided Memory Reconstruction for Google Photos
+
+Objective
+Build a functional AI-powered MVP that helps users retrieve a photo they remember but cannot precisely describe through an AI-guided MEMORY RECONSTRUCTION experience.
+When users remember a photo through incomplete fragments of an experience—such as seeing a quote in a cafe—they often cannot recall enough searchable information (e.g., exact quote text, cafe name, area, or date). As photo libraries grow, this forces users into tedious scrolling across hundreds of photos.
+
+Core Hypothesis:
+"When users cannot precisely describe a remembered photo, an AI-guided sequence of recognition tasks can help them reconstruct the missing context backwards from what they do remember and retrieve the target photo with less effort."
+
+New Product Concept: AI-Guided Memory Reconstruction
+The MVP is no longer primarily a metadata-filtering interface. It is an interactive memory reconstruction journey:
+1. Vague Memory Input ("I remember seeing a quote in a cafe, but not where or when").
+2. AI Memory Interpretation: AI determines what is REMEMBERED (Setting: Cafe, Detail: Quote) vs UNKNOWN (City, Area, Month, Specific Cafe).
+3. AI Reconstruction Loop: AI presents visual Recognition Tasks derived from the library.
+4. User Recognition: User selects a recognizable context or fragment.
+5. Memory State Update: System updates REMEMBERED vs UNKNOWN state and narrows the candidate set.
+6. Target Photo Retrieval: User narrows down to the specific visit and identifies the target photo.
+
+Primary MVP Demonstration: Cafe + Quote
+- Scenario Narrative: "I remember seeing a quote on a wall in a cafe. I took a photo of it, but the quote was not the main subject of the photo. I visit many cafes and have many photos from them. I do not remember the quote, cafe name, area, or exact date."
+- Target Photo: A broad cafe photograph where the wall quote is a secondary background element.
+- Crucial Constraint: Do NOT use "quote" or OCR text as a shortcut to jump directly to the target photo. "Quote" is a memory fragment, not a database filter. The initial candidate set must contain all cafe photos, requiring the user to reconstruct the context.
+
+AI & Gemini Requirements
+Gemini serves as a reasoning engine for memory interpretation:
+A. Understanding vague text memory.
+B. Distinguishing REMEMBERED vs UNKNOWN information.
+C. Maintaining the evolving memory state breakdown.
+D. Recommending the next useful recognition task based on entropy reduction across candidates.
+E. Generating friendly human memory reconstruction prompts.
+
+User Experience & Copy Guidance
+- Header Title: "Let's reconstruct the memory"
+- Subtitle: "You don't need to remember everything. We'll work backwards from what you do remember."
+- UI Sections:
+  - REMEMBERED (e.g. Setting: Cafe, Detail: Wall Quote)
+  - UNKNOWN / TO RECONSTRUCT (e.g. Where, When, Area)
+  - Visual Memory Cues ("Which place or moment feels familiar?")
+- Avoid database filter terminology such as "Filter results", "Choose metadata", "Search by", "Refine filters".
+
+Retrieval Dimensions & Data Model
+- User-Facing Retrieval Dimensions: City, Area, Month, Category.
+- Exact Time is removed from the user interface.
+- Candidate filtering underneath remains deterministic and entropy-based.
+
+Edge Case Handling
+- Invalid / Uninterpretable Input ("7=", "12345", empty): Show "Tell me a little about what you remember about the photo." Do not show photos.
+- Unsupported Scenario ("beach photo", "my dog"): Show "This prototype currently demonstrates cafe memories. Try a memory involving a cafe."
+- Zero Matches ("cafe in Chennai"): Show clear notice that zero photos match in this prototype library and offer reset.
+- Support "Not sure", "None of these", Undo Choice, and Reset All.
+
+Expected Outcome
+Demonstrate that users can successfully retrieve a hard-to-describe photo by working backwards through an AI-guided sequence of visual recognition tasks.

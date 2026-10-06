@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "photo_roastery_courtyard",
+    "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80",
+    "title": "Courtyard garden view at Roastery",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi",
+      "Ananya"
+    ],
+    "scene_description": "Outdoor lush green courtyard with white iron tables and garden plants.",
+    "detected_objects": [
+      "garden plant",
+      "iron table",
+      "coffee mug"
+    ],
+    "ocr_text": [
+      "Roastery"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202403",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2024-03-15",
+    "time": "16:30",
+    "month": "March",
+    "year": "2024"
+  },
+  {
+    "id": "photo_roastery_pourover",
+    "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+    "title": "Pour over coffee brewing at table",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi"
+    ],
+    "scene_description": "Pour over kettle and glass beaker on wooden tray.",
+    "detected_objects": [
+      "coffee beaker",
+      "glass cup",
+      "wooden tray"
+    ],
+    "ocr_text": [
+      "Specialty Brew"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202403",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-03-15",
+    "time": "16:30",
+    "month": "March",
+    "year": "2024"
+  },
+  {
+    "id": "photo_roastery_coldbrew",
+    "url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1000&q=80",
+    "title": "Cascade cold brew glass at Roastery",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Ananya"
+    ],
+    "scene_description": "Nitrogen cold brew glass with creamy foam on top.",
+    "detected_objects": [
+      "glass tumbler",
+      "cold brew",
+      "coaster"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_roastery_202403",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-03-15",
+    "time": "16:30",
+    "month": "March",
+    "year": "2024"
+  },
+  {
+    "id": "photo_roastery_entrance",
+    "url": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1000&q=80",
+    "title": "Bungalow entrance of Roastery Coffee House",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi",
+      "Ananya"
+    ],
+    "scene_description": "Classic white bungalow facade with yellow lighting and wooden door.",
+    "detected_objects": [
+      "house facade",
+      "wooden door",
+      "potted ferns"
+    ],
+    "ocr_text": [
+      "Roastery Coffee House"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202403",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-03-15",
+    "time": "16:30",
+    "month": "March",
+    "year": "2024"
+  },
+  {
+    "id": "photo_target_roastery_quote",
+    "url": "images/roastery_wall_quote.jpg",
+    "title": "Cozy corner table with visible wall quote at Roastery",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi",
+      "Ananya"
+    ],
+    "scene_description": "Warm indoor cafe table with hanging pendant lights and a clearly visible framed quote sign 'Do what you love' hanging on the brick wall in the background.",
+    "detected_objects": [
+      "coffee cup",
+      "wooden table",
+      "brick wall",
+      "framed wall quote",
+      "pendant light"
+    ],
+    "ocr_text": [
+      "Do what you love",
+      "Roastery Coffee"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202403",
+    "is_representative": false,
+    "is_target_photo": true,
+    "date": "2024-03-15",
+    "time": "16:30",
+    "month": "March",
+    "year": "2024"
+  },
+  {
+    "id": "photo_autumnleaf_courtyard",
+    "url": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1000&q=80",
+    "title": "Vintage courtyard at Autumn Leaf Cafe",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Autumn Leaf Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rohan",
+      "Priya"
+    ],
+    "scene_description": "Boutique cafe with shaded trees, rustic wooden benches, and ambient lanterns.",
+    "detected_objects": [
+      "wooden bench",
+      "tree",
+      "lantern"
+    ],
+    "ocr_text": [
+      "Autumn Leaf"
+    ],
+    "visit_cluster_id": "visit_hyd_autumnleaf_202402",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2024-02-18",
+    "time": "11:15",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_autumnleaf_dessert",
+    "url": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80",
+    "title": "Cheesecake and iced latte at Autumn Leaf",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Autumn Leaf Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rohan"
+    ],
+    "scene_description": "Blueberry cheesecake slice next to tall glass of iced coffee on marble top table.",
+    "detected_objects": [
+      "cheesecake",
+      "iced latte",
+      "fork"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_autumnleaf_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-18",
+    "time": "11:15",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_autumnleaf_pottery",
+    "url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=80",
+    "title": "Handicraft display inside Autumn Leaf",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Autumn Leaf Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Priya"
+    ],
+    "scene_description": "Wooden shelves holding handmade ceramic mugs and organic candles.",
+    "detected_objects": [
+      "ceramic mug",
+      "candle",
+      "shelf"
+    ],
+    "ocr_text": [
+      "Studio Pottery"
+    ],
+    "visit_cluster_id": "visit_hyd_autumnleaf_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-18",
+    "time": "11:15",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_autumnleaf_waffles",
+    "url": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=1000&q=80",
+    "title": "Belgian waffles with maple syrup",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Autumn Leaf Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rohan",
+      "Priya"
+    ],
+    "scene_description": "Fresh waffles topped with berries and maple syrup drip.",
+    "detected_objects": [
+      "waffle",
+      "maple syrup",
+      "berries"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_autumnleaf_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-18",
+    "time": "11:15",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_autumnleaf_lights",
+    "url": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=1000&q=80",
+    "title": "Evening ambient fairy lights in garden",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Autumn Leaf Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rohan",
+      "Priya"
+    ],
+    "scene_description": "Warm yellow string lights wrapped around tree branches at twilight.",
+    "detected_objects": [
+      "fairy lights",
+      "tree branch",
+      "twilight sky"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_autumnleaf_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-18",
+    "time": "11:15",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_concu_display",
+    "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80",
+    "title": "Patisserie display at Concu Madhapur",
+    "city": "Hyderabad",
+    "area": "Madhapur",
+    "venue_name": "Concu Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Kavya"
+    ],
+    "scene_description": "Glass display case filled with colorful macarons, eclairs, and tartlets.",
+    "detected_objects": [
+      "glass counter",
+      "macarons",
+      "pastry"
+    ],
+    "ocr_text": [
+      "Concu Craft Desserts"
+    ],
+    "visit_cluster_id": "visit_hyd_concu_202401",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2024-01-22",
+    "time": "17:45",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_concu_seating",
+    "url": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+    "title": "Minimalist indoor seating at Concu",
+    "city": "Hyderabad",
+    "area": "Madhapur",
+    "venue_name": "Concu Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Kavya"
+    ],
+    "scene_description": "Clean pastel walls with velvet chairs and round glass coffee tables.",
+    "detected_objects": [
+      "velvet chair",
+      "glass table",
+      "cappuccino"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_concu_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-22",
+    "time": "17:45",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_concu_croissant",
+    "url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1000&q=80",
+    "title": "Butter croissant and cappuccino at Concu",
+    "city": "Hyderabad",
+    "area": "Madhapur",
+    "venue_name": "Concu Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Kavya"
+    ],
+    "scene_description": "Golden flaky croissant served on white porcelain plate next to latte art cup.",
+    "detected_objects": [
+      "croissant",
+      "porcelain plate",
+      "latte art"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_concu_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-22",
+    "time": "17:45",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_concu_tiramisu",
+    "url": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=1000&q=80",
+    "title": "Classic tiramisu cup at Concu",
+    "city": "Hyderabad",
+    "area": "Madhapur",
+    "venue_name": "Concu Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Kavya"
+    ],
+    "scene_description": "Cocoa dusted tiramisu dessert in transparent glass vessel.",
+    "detected_objects": [
+      "tiramisu",
+      "cocoa powder",
+      "glass cup"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_concu_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-22",
+    "time": "17:45",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_concu_coffee_machine",
+    "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+    "title": "Barista espresso bar at Concu",
+    "city": "Hyderabad",
+    "area": "Madhapur",
+    "venue_name": "Concu Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Kavya"
+    ],
+    "scene_description": "Shiny chrome espresso machine steaming milk.",
+    "detected_objects": [
+      "espresso machine",
+      "chrome pitcher",
+      "barista counter"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_concu_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-22",
+    "time": "17:45",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_blr_thirdwave_counter",
+    "url": "https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=1000&q=80",
+    "title": "Third Wave Coffee Indiranagar counter",
+    "city": "Bengaluru",
+    "area": "Indiranagar",
+    "venue_name": "Third Wave Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Arjun"
+    ],
+    "scene_description": "Modern urban coffee shop with large glass windows and wooden communal desks.",
+    "detected_objects": [
+      "communal desk",
+      "glass window",
+      "flat white mug"
+    ],
+    "ocr_text": [
+      "THIRD WAVE",
+      "Coffee Roasters"
+    ],
+    "visit_cluster_id": "visit_blr_thirdwave_202309",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2023-09-10",
+    "time": "10:00",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_thirdwave_seating",
+    "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80",
+    "title": "Sunlit window seating at Third Wave",
+    "city": "Bengaluru",
+    "area": "Indiranagar",
+    "venue_name": "Third Wave Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Arjun"
+    ],
+    "scene_description": "High wooden stools along glass facade looking out onto street.",
+    "detected_objects": [
+      "wooden stool",
+      "glass window",
+      "coffee cup"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_thirdwave_202309",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-09-10",
+    "time": "10:00",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_thirdwave_flatwhite",
+    "url": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=1000&q=80",
+    "title": "Double shot flat white at Third Wave",
+    "city": "Bengaluru",
+    "area": "Indiranagar",
+    "venue_name": "Third Wave Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Arjun"
+    ],
+    "scene_description": "Creamy rosetta latte art poured into ceramic blue mug.",
+    "detected_objects": [
+      "latte art",
+      "blue mug",
+      "coffee coaster"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_thirdwave_202309",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-09-10",
+    "time": "10:00",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_thirdwave_bagel",
+    "url": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?auto=format&fit=crop&w=1000&q=80",
+    "title": "Cream cheese toasted bagel",
+    "city": "Bengaluru",
+    "area": "Indiranagar",
+    "venue_name": "Third Wave Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Arjun"
+    ],
+    "scene_description": "Toasted sesame seed bagel split with cream cheese filling.",
+    "detected_objects": [
+      "bagel",
+      "cream cheese",
+      "wooden board"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_thirdwave_202309",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-09-10",
+    "time": "10:00",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_thirdwave_beans",
+    "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+    "title": "Roasted coffee bean bags shelf",
+    "city": "Bengaluru",
+    "area": "Indiranagar",
+    "venue_name": "Third Wave Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Arjun"
+    ],
+    "scene_description": "Craft brown paper coffee bean packages arranged on wooden shelf.",
+    "detected_objects": [
+      "coffee bean bag",
+      "wooden shelf"
+    ],
+    "ocr_text": [
+      "Single Origin Chikmagalur"
+    ],
+    "visit_cluster_id": "visit_blr_thirdwave_202309",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-09-10",
+    "time": "10:00",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_bluetokai_interior",
+    "url": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+    "title": "Blue Tokai Koramangala roastery interior",
+    "city": "Bengaluru",
+    "area": "Koramangala",
+    "venue_name": "Blue Tokai Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Varun"
+    ],
+    "scene_description": "Signature blue brick walls with wooden tables and specialty coffee equipment.",
+    "detected_objects": [
+      "blue wall",
+      "wooden table",
+      "coffee grinder"
+    ],
+    "ocr_text": [
+      "Blue Tokai Coffee Roasters"
+    ],
+    "visit_cluster_id": "visit_blr_bluetokai_202311",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2023-11-25",
+    "time": "15:30",
+    "month": "November",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_bluetokai_coldbrew",
+    "url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1000&q=80",
+    "title": "Tonic cold brew glass at Blue Tokai",
+    "city": "Bengaluru",
+    "area": "Koramangala",
+    "venue_name": "Blue Tokai Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Varun"
+    ],
+    "scene_description": "Fizzy espresso tonic poured over ice in clear glass tumbler.",
+    "detected_objects": [
+      "espresso tonic",
+      "ice cubes",
+      "lemon slice"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_bluetokai_202311",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-11-25",
+    "time": "15:30",
+    "month": "November",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_bluetokai_avotoast",
+    "url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=80",
+    "title": "Avocado sourdough toast with microgreens",
+    "city": "Bengaluru",
+    "area": "Koramangala",
+    "venue_name": "Blue Tokai Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Varun"
+    ],
+    "scene_description": "Smashed avocado on toasted sourdough bread garnished with chili flakes.",
+    "detected_objects": [
+      "avocado toast",
+      "poached egg",
+      "microgreens"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_bluetokai_202311",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-11-25",
+    "time": "15:30",
+    "month": "November",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_bluetokai_workdesk",
+    "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=80",
+    "title": "Laptop work setup at Blue Tokai",
+    "city": "Bengaluru",
+    "area": "Koramangala",
+    "venue_name": "Blue Tokai Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Varun"
+    ],
+    "scene_description": "MacBook Pro next to ceramic mug on oak wood desk.",
+    "detected_objects": [
+      "laptop",
+      "ceramic mug",
+      "notebook"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_bluetokai_202311",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-11-25",
+    "time": "15:30",
+    "month": "November",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_bluetokai_pourer",
+    "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+    "title": "Manual V60 drip brewing",
+    "city": "Bengaluru",
+    "area": "Koramangala",
+    "venue_name": "Blue Tokai Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Varun"
+    ],
+    "scene_description": "Gooseneck kettle pouring hot water over V60 dripper.",
+    "detected_objects": [
+      "gooseneck kettle",
+      "V60 dripper",
+      "glass carafe"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_bluetokai_202311",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-11-25",
+    "time": "15:30",
+    "month": "November",
+    "year": "2023"
+  },
+  {
+    "id": "photo_blr_araku_banyan",
+    "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80",
+    "title": "Araku World flagship store HSR Layout",
+    "city": "Bengaluru",
+    "area": "HSR Layout",
+    "venue_name": "Araku Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Maya"
+    ],
+    "scene_description": "White sculptural archways with organic timber benches and bamboo elements.",
+    "detected_objects": [
+      "white archway",
+      "timber bench",
+      "bamboo plant"
+    ],
+    "ocr_text": [
+      "ARAKU",
+      "Organic Coffee"
+    ],
+    "visit_cluster_id": "visit_blr_araku_202402",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2024-02-05",
+    "time": "18:00",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_blr_araku_espresso",
+    "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+    "title": "Signature espresso shot in ceramic cup",
+    "city": "Bengaluru",
+    "area": "HSR Layout",
+    "venue_name": "Araku Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Maya"
+    ],
+    "scene_description": "Rich crema espresso served in handcrafted white clay cup.",
+    "detected_objects": [
+      "espresso shot",
+      "crema",
+      "clay cup"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_araku_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-05",
+    "time": "18:00",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_blr_araku_beans_display",
+    "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80",
+    "title": "Tribal coffee tin cans display",
+    "city": "Bengaluru",
+    "area": "HSR Layout",
+    "venue_name": "Araku Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Maya"
+    ],
+    "scene_description": "Colorful tin canisters featuring indigenous tribal art designs.",
+    "detected_objects": [
+      "tin canisters",
+      "tribal art",
+      "display shelf"
+    ],
+    "ocr_text": [
+      "Araku Micro Climate"
+    ],
+    "visit_cluster_id": "visit_blr_araku_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-05",
+    "time": "18:00",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_blr_araku_nitro",
+    "url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1000&q=80",
+    "title": "Nitro brew tap handle at Araku bar",
+    "city": "Bengaluru",
+    "area": "HSR Layout",
+    "venue_name": "Araku Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Maya"
+    ],
+    "scene_description": "Brass tap handle dispensing cold foam nitro coffee.",
+    "detected_objects": [
+      "brass tap",
+      "nitro foam",
+      "bar counter"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_araku_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-05",
+    "time": "18:00",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_blr_araku_garden",
+    "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80",
+    "title": "Zen garden outdoor seating at Araku",
+    "city": "Bengaluru",
+    "area": "HSR Layout",
+    "venue_name": "Araku Coffee",
+    "category": "cafe",
+    "people_present": [
+      "Maya"
+    ],
+    "scene_description": "Pebbled courtyard garden with minimal teak wood chairs.",
+    "detected_objects": [
+      "pebbled walkway",
+      "teak wood chair",
+      "bamboo wall"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_araku_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-05",
+    "time": "18:00",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_subko_mill",
+    "url": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1000&q=80",
+    "title": "Subko Crafters Bandra bungalow entrance",
+    "city": "Mumbai",
+    "area": "Bandra",
+    "venue_name": "Subko Coffee Roasters",
+    "category": "cafe",
+    "people_present": [
+      "Karan"
+    ],
+    "scene_description": "Restored heritage Portuguese bungalow with industrial brass signage.",
+    "detected_objects": [
+      "heritage bungalow",
+      "brass sign",
+      "wooden staircase"
+    ],
+    "ocr_text": [
+      "SUBKO",
+      "Specialty Coffee & Bakehouse"
+    ],
+    "visit_cluster_id": "visit_mum_subko_202401",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2024-01-14",
+    "time": "14:15",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_subko_bakehouse",
+    "url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1000&q=80",
+    "title": "Sourdough croissants batch at Subko",
+    "city": "Mumbai",
+    "area": "Bandra",
+    "venue_name": "Subko Coffee Roasters",
+    "category": "cafe",
+    "people_present": [
+      "Karan"
+    ],
+    "scene_description": "Freshly baked podi sourdough croissants on cooling rack.",
+    "detected_objects": [
+      "sourdough croissant",
+      "baking tray",
+      "parchment paper"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_subko_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-14",
+    "time": "14:15",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_subko_pour",
+    "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+    "title": "Aeropress pour over at Subko bar",
+    "city": "Mumbai",
+    "area": "Bandra",
+    "venue_name": "Subko Coffee Roasters",
+    "category": "cafe",
+    "people_present": [
+      "Karan"
+    ],
+    "scene_description": "Barista pressing Aeropress plunger into glass carafe.",
+    "detected_objects": [
+      "Aeropress",
+      "glass carafe",
+      "timer clock"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_subko_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-14",
+    "time": "14:15",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_subko_coldbrew",
+    "url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1000&q=80",
+    "title": "Cold brew bottle on wooden bench",
+    "city": "Mumbai",
+    "area": "Bandra",
+    "venue_name": "Subko Coffee Roasters",
+    "category": "cafe",
+    "people_present": [
+      "Karan"
+    ],
+    "scene_description": "Amber glass stubby cold brew bottle next to ice bucket.",
+    "detected_objects": [
+      "amber bottle",
+      "cold brew",
+      "ice bucket"
+    ],
+    "ocr_text": [
+      "Subko Reserve"
+    ],
+    "visit_cluster_id": "visit_mum_subko_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-14",
+    "time": "14:15",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_subko_roaster",
+    "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+    "title": "Loring Smart Roaster machine operating",
+    "city": "Mumbai",
+    "area": "Bandra",
+    "venue_name": "Subko Coffee Roasters",
+    "category": "cafe",
+    "people_present": [
+      "Karan"
+    ],
+    "scene_description": "Large stainless steel coffee roaster churning green coffee beans.",
+    "detected_objects": [
+      "coffee roaster",
+      "steel hopper",
+      "green beans"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_subko_202401",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-01-14",
+    "time": "14:15",
+    "month": "January",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_le15_counter",
+    "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80",
+    "title": "Le15 Patisserie Colaba macaron counter",
+    "city": "Mumbai",
+    "area": "Colaba",
+    "venue_name": "Le15 Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Tanya"
+    ],
+    "scene_description": "Pink pastel bakery counter filled with sea salt nutella macarons.",
+    "detected_objects": [
+      "macaron pyramid",
+      "pink counter",
+      "pastry box"
+    ],
+    "ocr_text": [
+      "Le15 Patisserie Paris"
+    ],
+    "visit_cluster_id": "visit_mum_le15_202312",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2023-12-28",
+    "time": "16:00",
+    "month": "December",
+    "year": "2023"
+  },
+  {
+    "id": "photo_mum_le15_choc_tart",
+    "url": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80",
+    "title": "Belgian chocolate tart with gold leaf",
+    "city": "Mumbai",
+    "area": "Colaba",
+    "venue_name": "Le15 Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Tanya"
+    ],
+    "scene_description": "Dark ganache tart topped with edible gold leaf foil.",
+    "detected_objects": [
+      "chocolate tart",
+      "gold leaf",
+      "cake plate"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_le15_202312",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-12-28",
+    "time": "16:00",
+    "month": "December",
+    "year": "2023"
+  },
+  {
+    "id": "photo_mum_le15_hotchoc",
+    "url": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80",
+    "title": "Parisian hot chocolate with marshmallow",
+    "city": "Mumbai",
+    "area": "Colaba",
+    "venue_name": "Le15 Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Tanya"
+    ],
+    "scene_description": "Thick dark hot chocolate topped with toasted marshmallow.",
+    "detected_objects": [
+      "hot chocolate",
+      "marshmallow",
+      "whipped cream"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_le15_202312",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-12-28",
+    "time": "16:00",
+    "month": "December",
+    "year": "2023"
+  },
+  {
+    "id": "photo_mum_le15_seating",
+    "url": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+    "title": "Chic Parisian bistro seating",
+    "city": "Mumbai",
+    "area": "Colaba",
+    "venue_name": "Le15 Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Tanya"
+    ],
+    "scene_description": "French woven rattan chairs with marble top caf\u00e9 tables.",
+    "detected_objects": [
+      "rattan chair",
+      "marble table",
+      "flower vase"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_le15_202312",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-12-28",
+    "time": "16:00",
+    "month": "December",
+    "year": "2023"
+  },
+  {
+    "id": "photo_mum_le15_cupcake",
+    "url": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=1000&q=80",
+    "title": "Red velvet cupcake with cream cheese icing",
+    "city": "Mumbai",
+    "area": "Colaba",
+    "venue_name": "Le15 Patisserie",
+    "category": "cafe",
+    "people_present": [
+      "Tanya"
+    ],
+    "scene_description": "Rich red cupcake swirl icing served in paper wrapper.",
+    "detected_objects": [
+      "red velvet cupcake",
+      "swirl icing",
+      "paper wrapper"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_le15_202312",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-12-28",
+    "time": "16:00",
+    "month": "December",
+    "year": "2023"
+  },
+  {
+    "id": "photo_mum_kalaghoda_entrance",
+    "url": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1000&q=80",
+    "title": "Kala Ghoda Cafe archway Fort Mumbai",
+    "city": "Mumbai",
+    "area": "Fort",
+    "venue_name": "Kala Ghoda Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rishi"
+    ],
+    "scene_description": "Quaint narrow alley entrance with black iron lamps and wooden shutters.",
+    "detected_objects": [
+      "iron lamp",
+      "wooden shutter",
+      "brick pathway"
+    ],
+    "ocr_text": [
+      "KALA GHODA CAFE"
+    ],
+    "visit_cluster_id": "visit_mum_kalaghoda_202402",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2024-02-08",
+    "time": "09:30",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_kalaghoda_espresso",
+    "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+    "title": "Organic espresso on wooden table",
+    "city": "Mumbai",
+    "area": "Fort",
+    "venue_name": "Kala Ghoda Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rishi"
+    ],
+    "scene_description": "Single shot espresso next to small pitcher of water.",
+    "detected_objects": [
+      "espresso cup",
+      "water pitcher",
+      "wooden table"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_kalaghoda_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-08",
+    "time": "09:30",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_kalaghoda_salad",
+    "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=80",
+    "title": "Organic quinoa avocado salad bowl",
+    "city": "Mumbai",
+    "area": "Fort",
+    "venue_name": "Kala Ghoda Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rishi"
+    ],
+    "scene_description": "Colorful salad bowl loaded with cherry tomatoes, feta, and spinach.",
+    "detected_objects": [
+      "salad bowl",
+      "avocado slice",
+      "cherry tomato"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_kalaghoda_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-08",
+    "time": "09:30",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_kalaghoda_waffle",
+    "url": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=1000&q=80",
+    "title": "Whole wheat honey waffle",
+    "city": "Mumbai",
+    "area": "Fort",
+    "venue_name": "Kala Ghoda Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rishi"
+    ],
+    "scene_description": "Golden toasted waffle drizzled with organic forest honey.",
+    "detected_objects": [
+      "waffle",
+      "honey drizzle",
+      "fork"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_mum_kalaghoda_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-08",
+    "time": "09:30",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_mum_kalaghoda_art",
+    "url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=80",
+    "title": "Art gallery wall inside Kala Ghoda Cafe",
+    "city": "Mumbai",
+    "area": "Fort",
+    "venue_name": "Kala Ghoda Cafe",
+    "category": "cafe",
+    "people_present": [
+      "Rishi"
+    ],
+    "scene_description": "Monochrome photography prints hanging on white gallery wall.",
+    "detected_objects": [
+      "photo frames",
+      "gallery wall",
+      "track light"
+    ],
+    "ocr_text": [
+      "Kala Ghoda Art District"
+    ],
+    "visit_cluster_id": "visit_mum_kalaghoda_202402",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2024-02-08",
+    "time": "09:30",
+    "month": "February",
+    "year": "2024"
+  },
+  {
+    "id": "photo_goa_beach_shack",
+    "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+    "title": "Sunset drinks at Anjuna beach shack",
+    "city": "Goa",
+    "area": "Anjuna",
+    "venue_name": "Curlies Beach Shack",
+    "category": "beach",
+    "people_present": [
+      "College Friends"
+    ],
+    "scene_description": "Wooden beach chairs on sand with ocean waves crashing under pink evening sky.",
+    "detected_objects": [
+      "beach chair",
+      "ocean waves",
+      "cocktail glass"
+    ],
+    "ocr_text": [
+      "Anjuna Beach"
+    ],
+    "visit_cluster_id": "visit_goa_beach_202310",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2023-10-12",
+    "time": "17:30",
+    "month": "October",
+    "year": "2023"
+  },
+  {
+    "id": "photo_charminar_sunset",
+    "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1000&q=80",
+    "title": "Charminar monument at sunset",
+    "city": "Hyderabad",
+    "area": "Old City",
+    "venue_name": "Charminar Monument",
+    "category": "landmark",
+    "people_present": [
+      "Family"
+    ],
+    "scene_description": "Historic minarets of Charminar illuminated against golden evening twilight.",
+    "detected_objects": [
+      "minarets",
+      "historic monument",
+      "street crowd"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_charminar_202311",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2023-11-04",
+    "time": "18:15",
+    "month": "November",
+    "year": "2023"
+  },
+  {
+    "id": "photo_cubbon_park",
+    "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+    "title": "Morning walk under green canopy in Cubbon Park",
+    "city": "Bengaluru",
+    "area": "Central Bengaluru",
+    "venue_name": "Cubbon Park",
+    "category": "park",
+    "people_present": [
+      "Self"
+    ],
+    "scene_description": "Tall bamboo trees and lush green lawns bathed in early morning sunlight.",
+    "detected_objects": [
+      "bamboo trees",
+      "sunlight rays",
+      "jogging path"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_blr_cubbonpark_202309",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2023-09-16",
+    "time": "08:00",
+    "month": "September",
+    "year": "2023"
+  }
+]
