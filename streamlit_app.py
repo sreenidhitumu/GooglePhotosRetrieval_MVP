@@ -38,7 +38,6 @@ st.markdown("""
 # ==============================================================================
 # 2. SECRETS & ENVIRONMENT SETUP
 # ==============================================================================
-# Check if GEMINI_API_KEY is configured in Streamlit Secrets
 if "GEMINI_API_KEY" in st.secrets:
     os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
 
@@ -76,17 +75,49 @@ if "server_started" not in st.session_state:
     time.sleep(0.5)
 
 # ==============================================================================
-# 4. FRONTEND BUNDLER & RENDERER
+# 4. FRONTEND BUNDLER & RENDERER (INLINES CSS & JS FOR 100% RELIABILITY)
 # ==============================================================================
 def get_bundled_html(server_port):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     index_path = os.path.join(base_dir, "index.html")
-    
+    css_path = os.path.join(base_dir, "index.css")
+    engine_js_path = os.path.join(base_dir, "js", "engine.js")
+    llm_js_path = os.path.join(base_dir, "js", "llm.js")
+    ui_js_path = os.path.join(base_dir, "js", "ui.js")
+
     if not os.path.exists(index_path):
         return "<h3>Error: index.html not found in application directory.</h3>"
 
     with open(index_path, "r", encoding="utf-8") as f:
         html_content = f.read()
+
+    # Inlining CSS for 100% guaranteed UI rendering
+    if os.path.exists(css_path):
+        with open(css_path, "r", encoding="utf-8") as f:
+            css_content = f.read()
+        if '<link rel="stylesheet" href="index.css">' in html_content:
+            html_content = html_content.replace(
+                '<link rel="stylesheet" href="index.css">',
+                f'<style>\n{css_content}\n</style>'
+            )
+        elif '</head>' in html_content:
+            html_content = html_content.replace('</head>', f'<style>\n{css_content}\n</style>\n</head>')
+
+    # Inlining JS scripts
+    if os.path.exists(engine_js_path):
+        with open(engine_js_path, "r", encoding="utf-8") as f:
+            engine_js = f.read()
+        html_content = html_content.replace('<script src="js/engine.js"></script>', f'<script>\n{engine_js}\n</script>')
+
+    if os.path.exists(llm_js_path):
+        with open(llm_js_path, "r", encoding="utf-8") as f:
+            llm_js = f.read()
+        html_content = html_content.replace('<script src="js/llm.js"></script>', f'<script>\n{llm_js}\n</script>')
+
+    if os.path.exists(ui_js_path):
+        with open(ui_js_path, "r", encoding="utf-8") as f:
+            ui_js = f.read()
+        html_content = html_content.replace('<script src="js/ui.js"></script>', f'<script>\n{ui_js}\n</script>')
 
     # Inject <base> tag to route relative fetches (data/photos, API endpoints) to backend server port
     base_tag = f'<base href="http://127.0.0.1:{server_port}/">'
