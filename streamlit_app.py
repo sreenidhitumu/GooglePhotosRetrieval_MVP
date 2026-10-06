@@ -91,11 +91,24 @@ def get_bundled_html(server_port):
     with open(index_path, "r", encoding="utf-8") as f:
         html_content = f.read()
 
+    import json
+    import base64
     dataset_path = os.path.join(base_dir, "data", "photos_dataset.json")
     dataset_json = "[]"
     if os.path.exists(dataset_path):
         with open(dataset_path, "r", encoding="utf-8") as f:
-            dataset_json = f.read()
+            dataset_data = json.load(f)
+            for item in dataset_data:
+                url = item.get("url", "")
+                if url.startswith("images/"):
+                    img_file = os.path.join(base_dir, url)
+                    if os.path.exists(img_file):
+                        with open(img_file, "rb") as img_f:
+                            encoded = base64.b64encode(img_f.read()).decode('utf-8')
+                            ext = img_file.split('.')[-1].lower()
+                            mime = "image/jpeg" if ext in ["jpg", "jpeg"] else f"image/{ext}"
+                            item["url"] = f"data:{mime};base64,{encoded}"
+            dataset_json = json.dumps(dataset_data)
 
     # Inlining CSS for 100% guaranteed UI rendering
     if os.path.exists(css_path):
