@@ -1,149 +1,5 @@
 [
   {
-    "id": "photo_roastery_courtyard",
-    "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80",
-    "title": "Courtyard garden view at Roastery",
-    "city": "Hyderabad",
-    "area": "Jubilee Hills",
-    "venue_name": "Roastery Coffee House",
-    "category": "cafe",
-    "people_present": [
-      "Sreenidhi",
-      "Ananya"
-    ],
-    "scene_description": "Outdoor lush green courtyard with white iron tables and garden plants.",
-    "detected_objects": [
-      "garden plant",
-      "iron table",
-      "coffee mug"
-    ],
-    "ocr_text": [
-      "Roastery"
-    ],
-    "visit_cluster_id": "visit_hyd_roastery_202403",
-    "is_representative": true,
-    "is_target_photo": false,
-    "date": "2024-03-15",
-    "time": "16:30",
-    "month": "March",
-    "year": "2024"
-  },
-  {
-    "id": "photo_roastery_pourover",
-    "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
-    "title": "Pour over coffee brewing at table",
-    "city": "Hyderabad",
-    "area": "Jubilee Hills",
-    "venue_name": "Roastery Coffee House",
-    "category": "cafe",
-    "people_present": [
-      "Sreenidhi"
-    ],
-    "scene_description": "Pour over kettle and glass beaker on wooden tray.",
-    "detected_objects": [
-      "coffee beaker",
-      "glass cup",
-      "wooden tray"
-    ],
-    "ocr_text": [
-      "Specialty Brew"
-    ],
-    "visit_cluster_id": "visit_hyd_roastery_202403",
-    "is_representative": false,
-    "is_target_photo": false,
-    "date": "2024-03-15",
-    "time": "16:30",
-    "month": "March",
-    "year": "2024"
-  },
-  {
-    "id": "photo_roastery_coldbrew",
-    "url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1000&q=80",
-    "title": "Cascade cold brew glass at Roastery",
-    "city": "Hyderabad",
-    "area": "Jubilee Hills",
-    "venue_name": "Roastery Coffee House",
-    "category": "cafe",
-    "people_present": [
-      "Ananya"
-    ],
-    "scene_description": "Nitrogen cold brew glass with creamy foam on top.",
-    "detected_objects": [
-      "glass tumbler",
-      "cold brew",
-      "coaster"
-    ],
-    "ocr_text": [],
-    "visit_cluster_id": "visit_hyd_roastery_202403",
-    "is_representative": false,
-    "is_target_photo": false,
-    "date": "2024-03-15",
-    "time": "16:30",
-    "month": "March",
-    "year": "2024"
-  },
-  {
-    "id": "photo_roastery_entrance",
-    "url": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1000&q=80",
-    "title": "Bungalow entrance of Roastery Coffee House",
-    "city": "Hyderabad",
-    "area": "Jubilee Hills",
-    "venue_name": "Roastery Coffee House",
-    "category": "cafe",
-    "people_present": [
-      "Sreenidhi",
-      "Ananya"
-    ],
-    "scene_description": "Classic white bungalow facade with yellow lighting and wooden door.",
-    "detected_objects": [
-      "house facade",
-      "wooden door",
-      "potted ferns"
-    ],
-    "ocr_text": [
-      "Roastery Coffee House"
-    ],
-    "visit_cluster_id": "visit_hyd_roastery_202403",
-    "is_representative": false,
-    "is_target_photo": false,
-    "date": "2024-03-15",
-    "time": "16:30",
-    "month": "March",
-    "year": "2024"
-  },
-  {
-    "id": "photo_target_roastery_quote",
-    "url": "images/roastery_wall_quote.jpg",
-    "title": "Cozy corner table with visible wall quote at Roastery",
-    "city": "Hyderabad",
-    "area": "Jubilee Hills",
-    "venue_name": "Roastery Coffee House",
-    "category": "cafe",
-    "people_present": [
-      "Sreenidhi",
-      "Ananya"
-    ],
-    "scene_description": "Warm indoor cafe table with hanging pendant lights and a clearly visible framed quote sign 'Do what you love' hanging on the brick wall in the background.",
-    "detected_objects": [
-      "coffee cup",
-      "wooden table",
-      "brick wall",
-      "framed wall quote",
-      "pendant light"
-    ],
-    "ocr_text": [
-      "Do what you love",
-      "Roastery Coffee"
-    ],
-    "visit_cluster_id": "visit_hyd_roastery_202403",
-    "is_representative": false,
-    "is_target_photo": true,
-    "date": "2024-03-15",
-    "time": "16:30",
-    "month": "March",
-    "year": "2024"
-  },
-  {
     "id": "photo_autumnleaf_courtyard",
     "url": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1000&q=80",
     "title": "Vintage courtyard at Autumn Leaf Cafe",
@@ -1213,6 +1069,150 @@
     "time": "09:30",
     "month": "February",
     "year": "2024"
+  },
+  {
+    "id": "photo_roastery_courtyard",
+    "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80",
+    "title": "Courtyard garden view at Roastery",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi",
+      "Ananya"
+    ],
+    "scene_description": "Outdoor lush green courtyard with white iron tables and garden plants.",
+    "detected_objects": [
+      "garden plant",
+      "iron table",
+      "coffee mug"
+    ],
+    "ocr_text": [
+      "Roastery"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202309",
+    "is_representative": true,
+    "is_target_photo": false,
+    "date": "2023-09-15",
+    "time": "16:30",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_roastery_pourover",
+    "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+    "title": "Pour over coffee brewing at table",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi"
+    ],
+    "scene_description": "Pour over kettle and glass beaker on wooden tray.",
+    "detected_objects": [
+      "coffee beaker",
+      "glass cup",
+      "wooden tray"
+    ],
+    "ocr_text": [
+      "Specialty Brew"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202309",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-09-15",
+    "time": "16:30",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_roastery_coldbrew",
+    "url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1000&q=80",
+    "title": "Cascade cold brew glass at Roastery",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Ananya"
+    ],
+    "scene_description": "Nitrogen cold brew glass with creamy foam on top.",
+    "detected_objects": [
+      "glass tumbler",
+      "cold brew",
+      "coaster"
+    ],
+    "ocr_text": [],
+    "visit_cluster_id": "visit_hyd_roastery_202309",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-09-15",
+    "time": "16:30",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_roastery_entrance",
+    "url": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1000&q=80",
+    "title": "Bungalow entrance of Roastery Coffee House",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi",
+      "Ananya"
+    ],
+    "scene_description": "Classic white bungalow facade with yellow lighting and wooden door.",
+    "detected_objects": [
+      "house facade",
+      "wooden door",
+      "potted ferns"
+    ],
+    "ocr_text": [
+      "Roastery Coffee House"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202309",
+    "is_representative": false,
+    "is_target_photo": false,
+    "date": "2023-09-15",
+    "time": "16:30",
+    "month": "September",
+    "year": "2023"
+  },
+  {
+    "id": "photo_target_roastery_quote",
+    "url": "images/roastery_wall_quote.jpg",
+    "title": "Cozy corner table with visible wall quote at Roastery",
+    "city": "Hyderabad",
+    "area": "Jubilee Hills",
+    "venue_name": "Roastery Coffee House",
+    "category": "cafe",
+    "people_present": [
+      "Sreenidhi",
+      "Ananya"
+    ],
+    "scene_description": "Warm indoor cafe table with hanging pendant lights and a clearly visible framed quote sign 'Do what you love' hanging on the brick wall in the background.",
+    "detected_objects": [
+      "coffee cup",
+      "wooden table",
+      "brick wall",
+      "framed wall quote",
+      "pendant light"
+    ],
+    "ocr_text": [
+      "Do what you love",
+      "Roastery Coffee"
+    ],
+    "visit_cluster_id": "visit_hyd_roastery_202309",
+    "is_representative": false,
+    "is_target_photo": true,
+    "date": "2023-09-15",
+    "time": "16:30",
+    "month": "September",
+    "year": "2023"
   },
   {
     "id": "photo_goa_beach_shack",
