@@ -118,8 +118,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Load Dataset & Initialize Engine
   // -----------------------------------------------------------------------
   try {
-    const response = await fetch('data/photos_dataset.json');
-    dataset = await response.json();
+    if (window.PHOTO_DATASET && Array.isArray(window.PHOTO_DATASET) && window.PHOTO_DATASET.length > 0) {
+      dataset = window.PHOTO_DATASET;
+    } else {
+      const response = await fetch('data/photos_dataset.json');
+      dataset = await response.json();
+    }
     engine = new MemoryRetrievalEngine(dataset);
     interpreter = new GeminiMemoryInterpreter();
     console.log(`[UI] Successfully loaded ${dataset.length} photo records.`);

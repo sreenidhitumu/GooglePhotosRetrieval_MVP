@@ -91,6 +91,12 @@ def get_bundled_html(server_port):
     with open(index_path, "r", encoding="utf-8") as f:
         html_content = f.read()
 
+    dataset_path = os.path.join(base_dir, "data", "photos_dataset.json")
+    dataset_json = "[]"
+    if os.path.exists(dataset_path):
+        with open(dataset_path, "r", encoding="utf-8") as f:
+            dataset_json = f.read()
+
     # Inlining CSS for 100% guaranteed UI rendering
     if os.path.exists(css_path):
         with open(css_path, "r", encoding="utf-8") as f:
@@ -102,6 +108,11 @@ def get_bundled_html(server_port):
             )
         elif '</head>' in html_content:
             html_content = html_content.replace('</head>', f'<style>\n{css_content}\n</style>\n</head>')
+
+    # Inlining Dataset JSON
+    dataset_script = f'<script>window.PHOTO_DATASET = {dataset_json};</script>'
+    if '<head>' in html_content:
+        html_content = html_content.replace('<head>', f'<head>\n  {dataset_script}', 1)
 
     # Inlining JS scripts
     if os.path.exists(engine_js_path):
